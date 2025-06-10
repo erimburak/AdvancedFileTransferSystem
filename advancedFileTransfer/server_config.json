@@ -1,0 +1,22 @@
+{
+    "server": {
+        "host": "localhost",
+        "port": 8080,
+        "password": "secure123",
+        "max_connections": 5,
+        "buffer_size": 4096,
+        "timeout": 30
+    },
+    "security": {
+        "rsa_key_size": 2048,
+        "aes_key_size": 32,
+        "hash_algorithm": "SHA256",
+        "private_key_file": "private_key.pem",
+        "public_key_file": "public_key.pem"
+    },
+    "performance": {
+        "chunk_size": 1024,
+        "max_file_size": 104857600,
+        "compression": true
+    }
+}
